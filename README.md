@@ -1,6 +1,6 @@
 # Acoustic_kokkos
 
-## Download this skeleton
+## Download this app
 
 ```bash
 git clone --recursive https://github.com/wangyf/acoustic_kokkos
@@ -19,7 +19,10 @@ git clone --recursive https://github.com/wangyf/acoustic_kokkos
 ldd --version
 ```
 
-
+## Data Prepare
+> 1. In build_xxx, create directories: in/ and out/
+> 2. Copy the input velocity structure (heterogeneous) into the in/
+> 3. All output .csv will be stored in out/
 
 ### Build with target device OpenMP
 
@@ -64,4 +67,7 @@ make
 # then you can run the application as before
 ./src/acoustic_kokkos.hip
 ```
+
+
+
 
