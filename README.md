@@ -72,3 +72,7 @@ make
 ### Example complish options:
 Please read compile.sh
 
+
+### Animation example
+![Example](/ani.gif)
+
