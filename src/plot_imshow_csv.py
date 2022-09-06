@@ -13,7 +13,7 @@ def read_csv(filename):
 fig = plt.figure()
 
 index = 0
-# prefix = "Serial"
+#prefix = "Serial"
 prefix = "Kokkos"
 filename = "out/"+prefix+"_{0:03d}.csv".format(index)
 data = read_csv(filename)
